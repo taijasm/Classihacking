@@ -1,0 +1,31 @@
+The clothing-store data set contains information about 28,799 customers in the following 51 fields:
+
+Customer ID: unique, encrypted customer identification HHKEY
+Zip code ZIP_CODE
+Number of purchase visits FRE
+Total net sales MON
+Average amount spent per visit AVRG
+Amount spent at each of four different franchises (four variables) AMSPEND, PSSPEND, CCSPEND, AXSPEND
+Amount spent in the past month, the past three months, and the past six months OMONSPEND, TMONSPEND, SMONSPEND
+Amount spent the same period last year PREVPD
+Gross margin percentage GMP
+Number of marketing promotions on file PROMOS
+Number of days the customer has been on file DAYS
+Number of days between purchases FREDAYS
+Markdown percentage on customer purchases MARKDOWN
+Number of different product classes purchased CLASSES
+Number of coupons used by the customer COUPONS
+Total number of individual items purchased by the customer STYLES
+Number of stores the customer shopped at STORES
+Number of promotions mailed in the past year MAILED
+Number of promotions responded to in the past year RESPONDED
+Promotion response rate for the past year RESPONSERATE
+Product uniformity (low score = diverse spending patterns) HI
+Lifetime average time between visits LTFREDAYS
+Microvision lifestyle cluster type CLUSTYPE
+Percent of returns PERCRET
+Flag: credit card user CC_CARD
+Flag: valid phone number on file VALPHON
+Flag: Web shopper WEB
+15 variables providing the percentages spent by the customer on specific classes of clothing, including sweaters, knit tops, knit dresses, blouses, jackets, career pants, casual pants, shirts, dresses, suits, outerwear, jewelry, fashion, legwear, and the collectibles line; (P*, PJACKETS for example) also a variable showing the brand of choice (encrypted)
+Target variable: response to promotion RESP...this is our response or y.
